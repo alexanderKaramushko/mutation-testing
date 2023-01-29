@@ -1,0 +1,41 @@
+{
+  "name": "mutational-testing",
+  "version": "1.0.0",
+  "description": "Use mutational testing",
+  "main": "index.ts",
+  "scripts": {
+    "test:dev": "jest src --watch --updateSnapshot",
+    "test:mutation": "stryker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderKaramushko/mutational-testing.git"
+  },
+  "keywords": [
+    "unit-tests",
+    "stryker",
+    "mutational",
+    "testing",
+    "tests",
+    "for",
+    "tests"
+  ],
+  "author": "Alex Karamushko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderKaramushko/mutational-testing/issues"
+  },
+  "homepage": "https://github.com/alexanderKaramushko/mutational-testing#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^6.3.1",
+    "@stryker-mutator/jest-runner": "^6.3.1",
+    "@stryker-mutator/typescript-checker": "^6.3.1",
+    "@types/jest": "^29.4.0",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "stryker": "^0.35.1",
+    "stryker-api": "^0.24.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.9.3"
+  }
+}

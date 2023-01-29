@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "target": "ESNext"
+  },
+  "include": [
+    "client/src",
+  ],
+}
