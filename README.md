@@ -1,3 +1,3 @@
 # mutational-testing
 
-Set up initial project with mutationl testing using Stryker.
+Set up initial project with mutational testing using Stryker.
